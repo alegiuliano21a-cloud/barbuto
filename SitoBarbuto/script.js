@@ -486,7 +486,7 @@ function loadEmbed(embed) {
 
   if (type === "map") {
     const iframe = document.createElement("iframe");
-    iframe.title = "Mappa Dal Barbuto - Via Pietro Novelli 155, Catania";
+    iframe.title = "Mappa Dal Barbuto - Via Pietro Novelli 155, Canalicchio (Catania)";
     iframe.src = src;
     iframe.loading = "lazy";
     iframe.referrerPolicy = "no-referrer-when-downgrade";

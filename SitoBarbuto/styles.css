@@ -701,7 +701,7 @@ section {
   stroke-width: 1.6;
 }
 
-.social-link:last-child .social-icon svg {
+.social-link.is-solid .social-icon svg {
   fill: #f7efe3;
   stroke: none;
 }
