@@ -1,0 +1,36 @@
+1) Privacy Policy: cosa manca (minimo indispensabile)
+
+Aggiungi queste sezioni (anche brevi, ma devono esserci):
+
+Titolare del trattamento + contatto email (telefono/WhatsApp da soli sono deboli per richieste privacy).(PLACEHOLDER)
+
+Base giuridica per ogni finalità (es. contatti/prenotazioni, sicurezza/gestione tecnica, analytics se lo metti, embed terze parti).
+
+Categorie di dati (dati di navigazione tipo IP/log; dati forniti dall’utente se ci sarà un form; dati derivanti da servizi terzi quando carichi gli embed).
+
+Destinatari / fornitori (es. Google/Tripadvisor/Meta se embed, provider analytics) + nota su possibili trasferimenti extra UE se usi grandi provider.
+
+Tempi di conservazione un minimo più specifici (es. richieste: X mesi; log tecnici: X giorni/mesi).
+
+Diritti dell’interessato + “come esercitarli” + diritto di reclamo al Garante.
+
+Data di ultima modifica della policy.
+
+Piccola correzione anche “di faccia”: in privacy hai “Finalita” → metti Finalità.
+
+
+2) Cookie Policy: cosa manca (minimo indispensabile)
+
+Spiega anche i cookie tecnici (es. se hai un cookie per salvare preferenze/consenso, oppure se in futuro lo aggiungi).
+
+Per ogni terza parte, aggiungi:
+
+“si carica solo su click”
+
+link alle policy ufficiali (Google/Tripadvisor/WhatsApp ecc.)
+
+Aggiungi “come revocare”: cancellare cookie dal browser + ricaricare la pagina.
+
+Se inserisci analytics privacy-friendly: scrivi chiaramente se è cookie-less oppure no (così non ti contraddici).
+
+Le linee guida del Garante insistono molto su informativa chiara e consenso valido quando serve (no consenso “implicito” tipo scroll).
