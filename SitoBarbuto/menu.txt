@@ -1,0 +1,29 @@
+﻿# Menu Dal Barbuto
+
+# Antipasti
+Arancino di riso | 3.50 | Dorato e cremoso, come da tradizione
+Caponata siciliana | 6.00 | Melanzane in agrodolce, profumo di basilico
+Panelle | 4.50 | Farina di ceci, limone e sale
+
+# Primi
+Pasta alla norma | 9.00 | Pomodoro, melanzane, ricotta salata
+Casarecci al pistacchio | 10.00 | Pistacchio, olio, pepe nero
+Ragu della casa | 9.50 | Lento e avvolgente, servito con pasta fresca
+
+# Secondi
+Pesce spada alla griglia | 12.00 | Limone, olio e origano
+Involtini di pesce spada | 12.00 | Ripieno morbido e saporito
+Polpette al sugo | 10.00 | Ricetta di famiglia
+
+# Contorni
+Insalata di stagione | 4.00 | Verdure fresche di mercato
+Patate al forno | 4.50 | Rosmarino e sale grosso
+
+# Dolci
+Cannolo siciliano | 4.50 | Ricotta, scorza e granella
+Torta di casa | 4.50 | Dolce del giorno
+
+# Bevande
+Acqua naturale o frizzante | 2.00
+Vino della casa | 4.00
+Birra artigianale | 5.00
