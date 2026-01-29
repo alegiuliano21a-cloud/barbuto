@@ -66,14 +66,20 @@
         <a href="#storia">La casa</a>
         <a href="#menu" data-track="menu_nav">Menu</a>
         <a href="#recensioni">Recensioni</a>
-        <a href="#prenotazioni">Prenotazioni</a>
         <a href="#contatti">Contatti</a>
       </nav>
       <a class="btn btn-primary" href="#prenotazioni">Prenota</a>
     </header>
 
     <main>
-      <section class="hero" id="home" data-reveal>
+      <section class="hero hero-centered" id="home" data-reveal>
+        <div class="hero-decor" aria-hidden="true">
+          <span class="decor decor-fish"></span>
+          <span class="decor decor-plate"></span>
+          <span class="decor decor-meat"></span>
+          <span class="decor decor-fish-small"></span>
+          <span class="decor decor-plate-small"></span>
+        </div>
         <div class="hero-content">
           <picture>
             <source srcset="assets/logo.webp" type="image/webp" />
@@ -125,11 +131,6 @@
             </div>
           </div>
         </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="sun"></div>
-          <div class="plate"></div>
-          <div class="leaf"></div>
-        </div>
       </section>
 
       <section class="story" id="storia" data-reveal>
@@ -173,43 +174,55 @@
       </section>
 
       <section class="booking" id="prenotazioni" data-reveal>
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Prenotazioni</p>
-            <h2>Prenotazioni online in arrivo</h2>
+        <div class="booking-layout">
+          <div class="booking-main">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Prenotazioni</p>
+                <h2>Prenota o chiedi il domicilio</h2>
+              </div>
+            </div>
+            <div class="booking-card">
+              <p class="booking-title">Prenota subito</p>
+              <p class="booking-text">
+                Scegli il canale che preferisci per prenotare.
+              </p>
+              <div class="booking-actions">
+                <a class="btn btn-primary" href="tel:+393317581588" data-track="tel_booking">
+                  Chiama ora
+                </a>
+                <a
+                  class="btn btn-ghost"
+                  href="https://wa.me/393317581588"
+                  target="_blank"
+                  rel="noopener"
+                  data-track="wa_booking"
+                >
+                  WhatsApp
+                </a>
+              </div>
+              <p class="booking-legal">
+                Info: <a href="privacy.html">Privacy</a> e <a href="cookie.html">Cookie</a>.
+              </p>
+            </div>
           </div>
-          <p>
-            Stiamo preparando il modulo per le prenotazioni online. Nel frattempo
-            puoi contattarci direttamente.
-          </p>
-        </div>
-        <div class="booking-card">
-          <p class="booking-title">Prenotazioni rapide</p>
-          <p>
-            Per ora gestiamo le prenotazioni via telefono o WhatsApp. Rispondiamo
-            volentieri durante l'orario di apertura.
-          </p>
-          <div class="booking-actions">
-            <a class="btn btn-primary" href="tel:+393317581588" data-track="tel_booking">
-              Chiama ora
-            </a>
-            <a
-              class="btn btn-ghost"
-              href="https://wa.me/393317581588"
-              target="_blank"
-              rel="noopener"
-              data-track="wa_booking"
-            >
-              WhatsApp
-            </a>
-          </div>
-          <p class="booking-meta">Orari: ogni giorno 9:00 - 16:00</p>
-          <p class="booking-meta">
-            Altro numero: <a href="tel:+393920759950">+39 392 075 9950</a>
-          </p>
-          <p class="booking-legal">
-            Info: <a href="privacy.html">Privacy</a> e <a href="cookie.html">Cookie</a>.
-          </p>
+          <aside class="booking-aside">
+            <div class="booking-panel">
+              <p class="booking-panel-title">Domicilio</p>
+              <p>Disponibile su richiesta.</p>
+            </div>
+            <div class="booking-panel">
+              <p class="booking-panel-title">Contatti</p>
+              <p>
+                <a href="tel:+393317581588">+39 331 758 1588</a><br />
+                <a href="tel:+393920759950">+39 392 075 9950</a>
+              </p>
+            </div>
+            <div class="booking-panel">
+              <p class="booking-panel-title">Orari</p>
+              <p>Ogni giorno 9:00 - 16:00</p>
+            </div>
+          </aside>
         </div>
       </section>
 
@@ -219,23 +232,6 @@
             <p class="eyebrow">Recensioni</p>
             <h2>Cosa dicono di noi</h2>
           </div>
-          <p>
-            Tre aspetti che cerchiamo di far vivere ogni giorno, in sala e in cucina.
-          </p>
-        </div>
-        <div class="reviews-grid">
-          <article class="review-card">
-            <h3>Accoglienza di casa</h3>
-            <p>Un servizio vicino e sorridente, come nelle tavole del Sud.</p>
-          </article>
-          <article class="review-card">
-            <h3>Sapori autentici</h3>
-            <p>Ricette tradizionali, ingredienti di stagione e profumi siciliani.</p>
-          </article>
-          <article class="review-card">
-            <h3>Atmosfera familiare</h3>
-            <p>Un luogo semplice e caldo, dove il tempo rallenta.</p>
-          </article>
         </div>
         <div class="tripadvisor-cta">
           <div class="tripadvisor-brand">
@@ -265,19 +261,17 @@
       <section class="contact" id="contatti" data-reveal>
         <div class="section-head">
           <div>
-            <p class="eyebrow">Dove siamo</p>
             <h2>Contatti</h2>
           </div>
-          <p>
-            Siamo a Canalicchio, Catania. Passa a trovarci per un pranzo rapido o una
-            cena lenta, come piace al Sud. Disponibili anche per catering, banqueting
-            e cene private su richiesta.
-          </p>
         </div>
         <div class="contact-grid">
           <div class="contact-card">
-            <h3>Indirizzo</h3>
-            <p>Via Pietro Novelli 155, Canalicchio (Catania)</p>
+            <h3>Dove siamo</h3>
+            <p>
+              Ci trovi a Canalicchio in
+              <span class="contact-underline">Via Pietro Novelli 155</span>,
+              per un pranzo mediterraneo casareccio.
+            </p>
           </div>
           <div class="contact-card">
             <h3>Telefono</h3>
