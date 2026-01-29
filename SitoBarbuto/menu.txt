@@ -1,4 +1,3 @@
-﻿# Menu Dal Barbuto
 
 # Antipasti
 Arancino di riso | 3.50 | Dorato e cremoso, come da tradizione
@@ -27,3 +26,4 @@ Torta di casa | 4.50 | Dolce del giorno
 Acqua naturale o frizzante | 2.00
 Vino della casa | 4.00
 Birra artigianale | 5.00
+
