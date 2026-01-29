@@ -1,0 +1,209 @@
+﻿// Menu Dal Barbuto
+
+@lun
+# Primi
+Caserecci alla palermitana
+Pasta con pomodoro saltato e melanzane fritte
+Risotto zucca e speck
+Ravioli o tortellini ricotta e spinaci
+Tagliolini ai funghi
+
+# Secondi
+Polpette di pollo con patate e piselli in umido
+Cotolette di melanzane con prosciutto e formaggio
+Fettine di maiale alla pizzaiola
+Involtini di pollo
+Cotolette di vitello alla palermitana
+Pollo al curry
+Polpette di cavallo
+Pesce spada grigliato
+Filetti di orata in umido
+
+# Contorni
+Zucchine grigliate
+Finocchi al forno
+Verdura saltata
+Peperoni al forno
+Patate al forno
+Broccoli al vapore
+Parmigiana
+Ortolana
+
+@mar
+# Primi
+Casarecci al pesce spada
+Involtini di spaghetti alla norma
+Ravioli ripieni alla zucca
+Riso asparagi e speck
+Pennette zucchina e ricotta salata
+
+# Secondi
+Filetto di orata in umido
+Polpo
+Salmone grigliato
+Cotolette di pollo
+Cosce di pollo grigliate
+Polpette di cavallo grigliate
+Polpette di vitello in umido alla napoletana
+Involtini (non panati) di pollo con piselli e patate
+Braciole di maiale con guanciale e scamorza e fondo bruno
+Involtini di melanzana prosciutto e mozzarella
+
+# Contorni
+Patate al forno
+Finocchi, zucchine e peperoni al forno
+Parmigiana
+Caponata
+Carote al vapore
+Broccoli al vapore
+Insalata di arance
+
+@mer
+# Primi
+Caserecci alla norma
+Involtini di spaghetti al ragu e melanzane
+Ravioli ripieni al pistacchio e burrata
+Riso alla pescatora
+Pennette pesto di basilico e speck croccante
+Legumi
+
+# Secondi
+Filetto di merluzzo alla pizzaiola
+Polpo scottato e crema di piselli
+Insalata tropicale di pesce
+Coscette disossate al forno
+Polpettine di cavallo in agrodolce
+Polpette di vitello grigliate con contorno di insalata mista
+Cordon bleu di maiale con spinaci e scamorza e contorno di funghi
+Cotolette di pollo
+Cotolette di melanzana prosciutto e mozzarella
+Involtini di pollo speck Philadelphia e pistacchio
+
+# Contorni
+Patate al forno
+Peperonata
+Parmigiana
+Cavolfiore affogato
+Carote e patate al vapore
+Verdura di campo saltata
+Finocchio gratinato
+Zucchine grigliate
+
+@gio
+# Primi
+Lasagne di zucca, speck e scamorza
+Casarecci al pesce spada
+Pasta secca alla norma
+Ravioli ripieni di burrata con salmone e riduzione di pomodoro
+Riso allo zafferano con salsiccia e fonduta di pecorino
+Pasta corta con legumi
+
+# Secondi
+Tranci di salmone grigliati
+Filetti di orata panati
+Alici in agrodolce
+Arrosto di maiale
+Polpette di asina grigliate
+Cotolette di vitello alla palermitana
+Scaloppine di pollo ai funghi
+Hamburger di pollo spinaci
+Coscette di pollo disossate grigliate
+Involtini di maiale speck e mozzarella fondo bruno e purea di patate
+
+# Contorni
+Zucca al forno
+Carote e piselli saltati
+Patate al forno
+Ortolana al forno
+Caponata
+Funghi trifolati
+Parmigiana
+
+@ven
+# Primi
+Ravioli ripieni di burrata con gamberetti e rucola
+Caserecci alla norma
+Pennette alla palermitana
+Tagliolini o spaghetti alle vongole
+Risotto zucca e ricotta
+Tortellini al ragu
+
+# Secondi
+Involtini di pesce spada con melanzane fritte
+Tonnina in agrodolce
+Filetti di orata in umido
+Polpo lesso
+Cotolette di pollo fritte e patatine fritte fresche
+Polpette di maiale in agrodolce
+Coscette di pollo al forno con ortolana
+Hamburger di vitello mozzarella e cipolla croccante
+Pollo al curry con riso basmati
+Uovo alla pizzaiola
+
+# Contorni
+Zucchine grigliate
+Spinaci freschi saltati
+Patate al forno
+Caprese
+Finocchi e peperoni al forno
+Funghi pleus grigliati
+Crocchette di patate
+
+@sab
+# Primi
+Lasagne
+Cannelloni
+Riso ai funghi
+Involtini di spaghetti alla norma
+Ravioli o tortellini panna, prosciutto e piselli
+
+# Secondi
+Polpettone in demi glace
+Cotolette di pollo
+Anchette disossate di pollo al forno
+Polpette di maiale al sugo
+Cosce di pollo grigliate
+Cotolette di vitello alla milanese
+Polpo
+Gamberoni gratinati
+Pesce spada in agrodolce
+Polpette di cavallo grigliate
+
+# Contorni
+Parmigiana
+Caponata
+Spinaci saltati
+Ortolana al forno
+Patate al forno
+Funghi trifolati
+Carote al vapore
+
+@dom
+# Primi
+Lasagne pistacchio
+Cannelloni
+Riso al forno
+Involtini di spaghetti alla norma
+Ravioli o tortellini ai funghi
+Casarecci al pesce spada
+
+# Secondi
+Polpettone in demiglass
+Cotolette di pollo
+Anchette disossate di pollo al forno
+Carne al sugo
+Cosce di pollo grigliate
+Cotolette di vitello alla palermitana
+Polpo
+Filetti di orata in umido
+Pesce spada in agrodolce
+Polpette di cavallo grigliate
+
+# Contorni
+Parmigiana
+Finocchi gratinati
+Verdura al forno
+Peperonata
+Patate al forno
+Funghi trifolati
+Carciofi conditi
