@@ -302,7 +302,7 @@ function renderMenu(sections) {
   if (!sections || sections.length === 0) {
     const empty = document.createElement("div");
     empty.className = "menu-empty";
-    empty.textContent = "Menu del giorno non disponibile.";
+    empty.textContent = "Menu della settimana non disponibile.";
     grid.appendChild(empty);
     return;
   }
@@ -402,16 +402,39 @@ function getDefaultDay() {
   return firstAvailable || DAY_ORDER[0];
 }
 
+function getIsoWeekNumber(date = new Date()) {
+  const temp = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const day = temp.getUTCDay() || 7;
+  temp.setUTCDate(temp.getUTCDate() + 4 - day);
+  const yearStart = new Date(Date.UTC(temp.getUTCFullYear(), 0, 1));
+  const week = Math.ceil(((temp - yearStart) / 86400000 + 1) / 7);
+  return week;
+}
+
+async function fetchMenuText(fileName) {
+  const response = await fetch(fileName, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error("Menu fetch failed");
+  }
+  return response.text();
+}
+
 async function loadMenu() {
+  const weekNumber = getIsoWeekNumber();
+  const isEvenWeek = weekNumber % 2 === 0;
+  const primaryFile = isEvenWeek ? "menu2.txt" : "menu.txt";
+  const fallbackFile = isEvenWeek ? "menu.txt" : "menu2.txt";
+
   try {
-    const response = await fetch("menu.txt", { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error("Menu fetch failed");
-    }
-    const text = await response.text();
+    const text = await fetchMenuText(primaryFile);
     menuData = parseMenu(text);
   } catch (error) {
-    menuData = parseMenu(DEFAULT_MENU);
+    try {
+      const text = await fetchMenuText(fallbackFile);
+      menuData = parseMenu(text);
+    } catch (fallbackError) {
+      menuData = parseMenu(DEFAULT_MENU);
+    }
   }
   renderDayButtons();
   setActiveDay(getDefaultDay());
@@ -510,9 +533,48 @@ function setupConsentEmbeds() {
   });
 }
 
+function setupMobileTopbar() {
+  const topbar = document.querySelector(".topbar");
+  if (!topbar) {
+    return;
+  }
+
+  const mediaQuery = window.matchMedia("(max-width: 900px)");
+  let ticking = false;
+
+  const update = () => {
+    ticking = false;
+    if (!mediaQuery.matches) {
+      topbar.classList.remove("is-compact");
+      return;
+    }
+    const shouldCompact = window.scrollY > 20;
+    topbar.classList.toggle("is-compact", shouldCompact);
+  };
+
+  const onScroll = () => {
+    if (ticking) {
+      return;
+    }
+    ticking = true;
+    window.requestAnimationFrame(update);
+  };
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", update);
+  if (typeof mediaQuery.addEventListener === "function") {
+    mediaQuery.addEventListener("change", update);
+  } else if (typeof mediaQuery.addListener === "function") {
+    mediaQuery.addListener(update);
+  }
+
+  update();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   revealOnScroll();
   loadMenu();
   setupConsentEmbeds();
   bindTracking();
+  setupMobileTopbar();
 });
